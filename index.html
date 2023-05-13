@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, max-initial-scale=1.0">
     <title>Site</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -13,7 +13,7 @@
             <h1 id="name" >Компьютеры и Будущее</h1>
         </div>
         <nav>
-            <ul class="nav-lists">
+            <ul>
                 <a href="#" class="nav-link1"><li class="list-item1">ГЛАВНАЯ</li></a>
                 <a href="#" class="nav-link2"><li class="list-item2">СТАТЬИ</li></a>
                 <a href="#" class="nav-link3"><li class="list-item3">О НАС</li></a>
@@ -23,23 +23,22 @@
         </nav>
     </header>
     <main>
-        <div class="content">
-            <article>
-                <h2>1 статья</h2>
-                <p>краткая информация</p>
-                <img class="img-card" src="https://picsum.photos/id/200/300/150" alt="">
-            </article>
-            <article>
-                <h2>2 статья</h2>
-                <p>краткая информация</p>
-                <img class="img-card" src="https://picsum.photos/id/200/300/150" alt="">
-            </article>
-            <article>
-                <h2>3 статья</h2>
-                <p>краткая информация</p>
-                <img class="img-card" src="https://picsum.photos/id/200/300/150" alt="">
-            </article>
+        <div class="card">
+            <img class="img-card" src="https://picsum.photos/id/200/300/150" alt="">
+            <div class="card_content">
+                <div class="card_title">Name</div>
+                <div class="card_description">краткая информация</div>
+                <a href="#" class="link">More...</a>
+            </div>
+            
         </div>
+        <div class="card">
+            <div class="card_content">
+                <div class="card_title">Name</div>
+                <div class="card_description">краткая информация</div>
+                <a href="#" class="link">More...</a>
+        </div>
+
     </main>
     <footer>
         <h2>При поддержке уникального курса от МЭО Акадамия: "ВебМастер. Веб-разработка на JavaScript, CSS, Html5"</h2>
