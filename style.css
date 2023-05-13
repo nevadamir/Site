@@ -52,94 +52,62 @@ nav ul{
     list-style: none;
     font-size: 24px;
     font-weight: 400;
-    line-height: 29px;
+    line-height: 24px;
     font-family: 'Inter';
     font-style: normal;
     text-align: center;
     text-transform: capitalize;
 }
-nav ul li{
-    color: #000000;
-    
-}
-nav ul a{
+nav a{
+    position: relative;
+    top: 48px;
+    display: inline-block;
+    margin-left: 93px;
+    width: 172px;
+    height: 49px;
     background: #E18686;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    text-decoration: none;
 }
-.nav-link1{
-    position: absolute;
+.list-item{
+    height: 24px;
     width: 172px;
-    height: 49px;
-    left: 44px;
-    top: 48px; 
-}
-
-.list-item1{
     position: absolute;
-    left: 19.31%;
-    right: 18.81%;
-    top: 20.41%;
-    bottom: 20.41%;
-    
+    text-align: center;
+    transform: translateY(50%);
+    color: #000000;  
 }
-.nav-link2{
-    position: absolute;
-    height: 49px;
-    width: 172px;
-    left: 309px;
-    top: 48px;
-}
-.list-item2{
-    position: absolute;
-    left: 19.31%;
-    right: 18.81%;
-    top: 20.41%;
-    bottom: 20.41%;
-}
-.nav-link3{
-    position: absolute;
-    height: 49px;
-    width: 172px;
-    left: 574px;
-    top: 48px;
-}
-.list-item3{
-    position: absolute;
-    left: 19.31%;
-    right: 18.81%;
-    top: 20.41%;
-    bottom: 20.41%;
-}
-.nav-link4{
-    position: absolute;
-    height: 49px;
-    width: 172px;
-    left: 839px;
-    top: 48px;
-}
-
-.list-item4{
-    position: absolute;
-    left: 12.31%;
-    right: 18.81%;
-    top: 20.41%;
-    bottom: 20.41%;
-}
-
 .logo{
     position: absolute;
     width: 233px;
     height: 109px;
     left: 1200px;
     top: 18px;
-    background: #E18686;
+    background: #ffffff;
     border: 1px solid #000000;
     border-radius: 50%;
-
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-image: url('./img/logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    
 }
 .card{
+    position: relative;
     width: 80%;
     max-height: 300px;
     margin: 30px;
+    top: 380px;
+    background-color: #B59E9E;
+}
+
+.news img{
+    float: left;
+    margin: 25px 10px;
+}
+.content{
+    width: 70%;
+    height: 100%;
+    float: left;
+    margin: 0;
 }
