@@ -1,0 +1,131 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.tema{
+    position: absolute;
+    width: 100%;
+    height: 156px;
+    left: 0px;
+    top: 0px;
+
+    background: #33A0C3;
+}
+
+#name{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 79px;
+    
+    margin: 39px 0 38px 0;
+    justify-content: center;
+
+    font-family: initial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #000000;
+
+    backdrop-filter: blur(2px);
+}
+nav ul{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 145px;
+    left: 0px;
+    top: 156px;
+    background: #33A0C3;
+    list-style: none;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    font-style: normal;
+    text-align: center;
+    text-transform: capitalize;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+nav a{
+    position: relative;
+    top: 48px;
+    display: inline-block;
+    margin-left: 93px;
+    width: 11.3%;
+    height: 49px;
+    background: #6ECDE1;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    text-decoration: none;
+}
+.list-item{
+    height: 24px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    transform: translateY(50%);
+    color: #000000;  
+}
+.logo{
+    position: absolute;
+    width: 233px;
+    height: 109px;
+    left: 1200px;
+    top: 18px;
+    background: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-image: url("../img/pict.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+main{
+    position: relative;
+    width: 100%;
+    height: 1800px;
+    top: 325px;
+}
+#main_name{
+    font-size: 40px;
+    margin: 20px 10% 30px;
+}
+.image-itm{
+    float: none;
+    margin: 0px 10%;
+}
+.text{
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-top: 40px;
+    line-height: 27px;
+    font-size: 22px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+footer{
+    display: relative;
+    height: 152px;
+    width: 100%;
+    margin-top: 170px;
+    background: #EBEBEB;
+}
+h2{
+    position: relative;
+    margin-left: 10px;
+    max-width: 80%;
+    margin-top: 20px;
+}
