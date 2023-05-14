@@ -79,10 +79,11 @@ nav a{
     color: #000000;  
 }
 .logo{
-    position: absolute;
+    position: relative;
     width: 233px;
     height: 109px;
-    left: 1200px;
+    float: right;
+    margin-left: 120px;
     top: 18px;
     background: #ffffff;
     border: 1px solid #000000;
@@ -183,4 +184,20 @@ h2{
     margin-left: 10px;
     max-width: 80%;
     margin-top: 20px;
+}
+
+@media screen and (max-width: 1150px){
+    nav ul{
+        font-size: 18px;
+    }
+    .card_description{
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 857px){
+    nav ul{
+        font-size: 14px;
+    }
 }
